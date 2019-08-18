@@ -1,0 +1,45 @@
+.presets {
+  display: flex;
+  justify-content: space-around;
+}
+
+.presets-section {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.presets-section button {
+  font-size: 1.5rem;
+  border: 1px solid #801300;
+  background-color: #ff5233;
+  color: #fff;
+  border-radius: 6px;
+  outline: none;
+  width: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease-out;
+}
+
+.presets-section button:not(.disable):hover {
+  cursor: pointer;
+  background-color: #801300;
+}
+
+.presets-section button.disable {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.presets-section span {
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffd4cc;
+  border-radius: 6px;
+  margin: 10px;
+  font-size: 1.5rem;
+}

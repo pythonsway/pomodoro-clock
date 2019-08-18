@@ -1,0 +1,44 @@
+.logo {
+  text-align: center;
+}
+
+h1 {
+  border: 0.5rem double;
+  border-radius: 12px;
+  margin: 0.65rem;
+  padding: 1rem;
+  font-style: italic;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+footer a {
+  color: inherit;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+
+footer a:hover {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 100vh;
+    margin: 0 auto;
+  }
+}

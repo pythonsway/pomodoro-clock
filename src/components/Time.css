@@ -1,0 +1,24 @@
+.time {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.time-content {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid #801300;
+  border-radius: 50%;
+}
+
+#timer-label {
+  font-size: 1.5rem;
+}
+
+#time-left {
+  font-size: 6rem;
+}

@@ -1,0 +1,27 @@
+.controll {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.controll button {
+  font-size: 1.5rem;
+  border: 1px solid #801300;
+  background-color: #ff5233;
+  color: #fff;
+  border-radius: 6px;
+  outline: none;
+  width: 85px;
+  height: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease-out;
+  margin: 15px;
+  text-transform: uppercase;
+}
+
+.controll button:hover {
+  cursor: pointer;
+  background-color: #b31b00;
+}
